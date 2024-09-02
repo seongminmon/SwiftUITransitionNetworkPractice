@@ -16,16 +16,16 @@ struct OnboardingView: View {
                     .font(.largeTitle)
                     .bold()
                     .foregroundStyle(.blue)
-                Image("polaroid", bundle: .main)
+                Image(.polaroid)
                 Spacer()
                 NavigationLink {
                     ProfileSettingView()
                 } label: {
                     BlueRadiusText(title: "시작하기")
                 }
+                .padding()
             }
         }
-        
     }
 }
 

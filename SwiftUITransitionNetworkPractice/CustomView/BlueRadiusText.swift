@@ -19,10 +19,9 @@ struct BlueRadiusText: View {
         .foregroundStyle(.white)
         .background(.blue)
         .clipShape(.capsule)
-        .padding()
     }
 }
 
 #Preview {
-    BlueRadiusText(title: "텍스트")
+    BlueRadiusText(title: "완료")
 }
