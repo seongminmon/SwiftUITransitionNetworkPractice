@@ -12,6 +12,11 @@
 		241A57812C85937B00232D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241A57802C85937B00232D8B /* Assets.xcassets */; };
 		241A57842C85937B00232D8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241A57832C85937B00232D8B /* Preview Assets.xcassets */; };
 		241A578B2C85938900232D8B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 241A578A2C85938900232D8B /* .gitignore */; };
+		241A578F2C85943700232D8B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A578E2C85943700232D8B /* OnboardingView.swift */; };
+		241A57922C85965C00232D8B /* BlueRadiusText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57912C85965C00232D8B /* BlueRadiusText.swift */; };
+		241A57952C8596B600232D8B /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57942C8596B600232D8B /* ProfileSettingView.swift */; };
+		241A57972C8596BF00232D8B /* ImageSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57962C8596BF00232D8B /* ImageSettingView.swift */; };
+		241A57992C8596F300232D8B /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57982C8596F300232D8B /* CompleteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		241A57802C85937B00232D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		241A57832C85937B00232D8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		241A578A2C85938900232D8B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		241A578E2C85943700232D8B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		241A57912C85965C00232D8B /* BlueRadiusText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueRadiusText.swift; sourceTree = "<group>"; };
+		241A57942C8596B600232D8B /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
+		241A57962C8596BF00232D8B /* ImageSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSettingView.swift; sourceTree = "<group>"; };
+		241A57982C8596F300232D8B /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			children = (
 				241A577C2C85937900232D8B /* SwiftUITransitionNetworkPracticeApp.swift */,
 				241A577E2C85937900232D8B /* ContentView.swift */,
+				241A57902C85964E00232D8B /* CustomView */,
+				241A57932C85969300232D8B /* Recap */,
 				241A57802C85937B00232D8B /* Assets.xcassets */,
 				241A57822C85937B00232D8B /* Preview Content */,
 			);
@@ -68,6 +80,25 @@
 				241A57832C85937B00232D8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		241A57902C85964E00232D8B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				241A57912C85965C00232D8B /* BlueRadiusText.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		241A57932C85969300232D8B /* Recap */ = {
+			isa = PBXGroup;
+			children = (
+				241A578E2C85943700232D8B /* OnboardingView.swift */,
+				241A57942C8596B600232D8B /* ProfileSettingView.swift */,
+				241A57962C8596BF00232D8B /* ImageSettingView.swift */,
+				241A57982C8596F300232D8B /* CompleteView.swift */,
+			);
+			path = Recap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241A578F2C85943700232D8B /* OnboardingView.swift in Sources */,
+				241A57992C8596F300232D8B /* CompleteView.swift in Sources */,
+				241A57972C8596BF00232D8B /* ImageSettingView.swift in Sources */,
+				241A57922C85965C00232D8B /* BlueRadiusText.swift in Sources */,
 				241A577F2C85937900232D8B /* ContentView.swift in Sources */,
 				241A577D2C85937900232D8B /* SwiftUITransitionNetworkPracticeApp.swift in Sources */,
+				241A57952C8596B600232D8B /* ProfileSettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
