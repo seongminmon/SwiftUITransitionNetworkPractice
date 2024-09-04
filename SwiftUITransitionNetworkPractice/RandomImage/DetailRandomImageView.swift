@@ -10,12 +10,14 @@ import SwiftUI
 struct DetailRandomImageView: View {
 
     @Binding var title: String
-//    let url: URL?
+    let url: URL?
     
     var body: some View {
         VStack(alignment: .center) {
+            PosterView(url: url)
             TextField("섹션 타이틀 변경하기", text: $title)
                 .textFieldStyle(.roundedBorder)
+                .multilineTextAlignment(.center)
         }
         .padding()
     }

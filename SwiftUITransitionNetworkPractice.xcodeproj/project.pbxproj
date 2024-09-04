@@ -26,6 +26,7 @@
 		241A57E62C87254600232D8B /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57E52C87254600232D8B /* Market.swift */; };
 		241A57EF2C886E8600232D8B /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57EE2C886E8600232D8B /* RandomImageView.swift */; };
 		241A57F12C88733F00232D8B /* DetailRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57F02C88733F00232D8B /* DetailRandomImageView.swift */; };
+		241A57F52C888C8400232D8B /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57F42C888C8400232D8B /* NavigationLazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		241A57E52C87254600232D8B /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		241A57EE2C886E8600232D8B /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
 		241A57F02C88733F00232D8B /* DetailRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRandomImageView.swift; sourceTree = "<group>"; };
+		241A57F42C888C8400232D8B /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				241A577C2C85937900232D8B /* SwiftUITransitionNetworkPracticeApp.swift */,
 				241A577E2C85937900232D8B /* ContentView.swift */,
+				241A57F42C888C8400232D8B /* NavigationLazyView.swift */,
 				241A579F2C85B92000232D8B /* Design */,
 				241A57902C85964E00232D8B /* CustomView */,
 				241A57932C85969300232D8B /* Recap */,
@@ -225,6 +228,7 @@
 			files = (
 				241A57E42C87253300232D8B /* UpbitAPI.swift in Sources */,
 				241A57A12C85B92500232D8B /* ImageAsset.swift in Sources */,
+				241A57F52C888C8400232D8B /* NavigationLazyView.swift in Sources */,
 				241A579E2C85AD9400232D8B /* MBTIButton.swift in Sources */,
 				241A578F2C85943700232D8B /* OnboardingView.swift in Sources */,
 				241A57992C8596F300232D8B /* CompleteView.swift in Sources */,
