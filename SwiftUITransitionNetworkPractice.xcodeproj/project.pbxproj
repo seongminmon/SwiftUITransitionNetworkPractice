@@ -24,6 +24,8 @@
 		241A57A82C85BDD000232D8B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57A72C85BDD000232D8B /* SearchView.swift */; };
 		241A57E42C87253300232D8B /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57E32C87253300232D8B /* UpbitAPI.swift */; };
 		241A57E62C87254600232D8B /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57E52C87254600232D8B /* Market.swift */; };
+		241A57EF2C886E8600232D8B /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57EE2C886E8600232D8B /* RandomImageView.swift */; };
+		241A57F12C88733F00232D8B /* DetailRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57F02C88733F00232D8B /* DetailRandomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		241A57A72C85BDD000232D8B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		241A57E32C87253300232D8B /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		241A57E52C87254600232D8B /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		241A57EE2C886E8600232D8B /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
+		241A57F02C88733F00232D8B /* DetailRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRandomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				241A57902C85964E00232D8B /* CustomView */,
 				241A57932C85969300232D8B /* Recap */,
 				241A57A62C85BDC800232D8B /* Search */,
+				241A57ED2C886E6F00232D8B /* RandomImage */,
 				241A57802C85937B00232D8B /* Assets.xcassets */,
 				241A57822C85937B00232D8B /* Preview Content */,
 			);
@@ -136,6 +141,15 @@
 				241A57A72C85BDD000232D8B /* SearchView.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		241A57ED2C886E6F00232D8B /* RandomImage */ = {
+			isa = PBXGroup;
+			children = (
+				241A57EE2C886E8600232D8B /* RandomImageView.swift */,
+				241A57F02C88733F00232D8B /* DetailRandomImageView.swift */,
+			);
+			path = RandomImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +231,8 @@
 				241A57A82C85BDD000232D8B /* SearchView.swift in Sources */,
 				241A57972C8596BF00232D8B /* ImageSettingView.swift in Sources */,
 				241A57922C85965C00232D8B /* BlueRadiusText.swift in Sources */,
+				241A57F12C88733F00232D8B /* DetailRandomImageView.swift in Sources */,
+				241A57EF2C886E8600232D8B /* RandomImageView.swift in Sources */,
 				241A57A32C85B9E900232D8B /* ProfileImageView.swift in Sources */,
 				241A57E62C87254600232D8B /* Market.swift in Sources */,
 				241A577F2C85937900232D8B /* ContentView.swift in Sources */,

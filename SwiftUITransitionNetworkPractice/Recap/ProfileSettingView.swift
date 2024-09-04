@@ -37,8 +37,7 @@ struct ProfileSettingView: View {
                     .foregroundColor(.gray)
             }
             
-            HStack {
-                // TODO: - "MBTI - top으로 위치 맞추기"
+            HStack(alignment: .top) {
                 Text("MBTI")
                     .bold()
                 Spacer()
