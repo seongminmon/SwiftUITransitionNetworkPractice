@@ -10,7 +10,7 @@ import SwiftUI
 struct Category: Hashable, Identifiable {
     let id = UUID()
     let name: String
-    let count = Int.random(in: 1...100)
+    let count: Int
     
     var text: String {
         return "\(name) (\(count))"
@@ -19,14 +19,16 @@ struct Category: Hashable, Identifiable {
 
 struct CategoryView: View {
     
+    private let item = ["SF", "가족", "스릴러"]
+    
     @State private var text = ""
     @State private var genreList = [
-        Category(name: "SF"),
-        Category(name: "가족"),
-        Category(name: "스릴러")
+        Category(name: "SF", count:  .random(in: 1...100)),
+        Category(name: "가족", count: .random(in: 1...100)),
+        Category(name: "스릴러", count: .random(in: 1...100))
     ]
     
-    var filterGenre: [Category] {
+    private var filterGenre: [Category] {
         return text.isEmpty ? genreList : genreList.filter { $0.name.contains(text) }
     }
     
@@ -52,11 +54,13 @@ struct CategoryView: View {
             )
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(action: {
-                        print("StarButton Tap")
-                    }, label: {
-                        Image(systemName: "추가")
-                    })
+                    Button {
+                        print("추가 탭")
+                        let genre = Category(name: item.randomElement()!, count: .random(in: 1...100))
+                        genreList.append(genre)
+                    } label: {
+                        Text("추가")
+                    }
                 }
             }
         }
@@ -68,7 +72,7 @@ struct CategoryDetailView: View {
     var data: Category
     
     var body: some View {
-        Text("SearchDetailView \(data.text)")
+        Text("CategoryDetailView \(data.text)")
     }
 }
 
