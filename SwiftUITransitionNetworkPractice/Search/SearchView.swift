@@ -10,9 +10,9 @@ import SwiftUI
 struct SearchView: View {
     
     @State private var text = ""
-    @State private var markets: Markets = []
+    @State private var markets: [Market] = []
     
-    private var filteredMarkets: Markets {
+    private var filteredMarkets: [Market] {
         return text.isEmpty ? markets : markets.filter { $0.koreanName.contains(text) }
     }
     
@@ -35,7 +35,7 @@ struct SearchView: View {
         }
     }
     
-    private func listView(_ markets: Markets) -> some View {
+    private func listView(_ markets: [Market]) -> some View {
         LazyVStack {
             ForEach(markets, id: \.self) { item in
                 cell(item)

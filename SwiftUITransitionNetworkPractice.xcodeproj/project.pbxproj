@@ -29,6 +29,7 @@
 		241A57F52C888C8400232D8B /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57F42C888C8400232D8B /* NavigationLazyView.swift */; };
 		241A57F82C88956A00232D8B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57F72C88956A00232D8B /* CategoryView.swift */; };
 		241A57FB2C89978B00232D8B /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57FA2C89978B00232D8B /* CoinView.swift */; };
+		241A58002C89A04200232D8B /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A57FF2C89A04200232D8B /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		241A57F42C888C8400232D8B /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		241A57F72C88956A00232D8B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		241A57FA2C89978B00232D8B /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		241A57FF2C89A04200232D8B /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,9 @@
 			children = (
 				241A577C2C85937900232D8B /* SwiftUITransitionNetworkPracticeApp.swift */,
 				241A577E2C85937900232D8B /* ContentView.swift */,
-				241A57F42C888C8400232D8B /* NavigationLazyView.swift */,
+				241A57FF2C89A04200232D8B /* Color+.swift */,
+				241A57FE2C899EE700232D8B /* Network */,
+				241A57FD2C899EE000232D8B /* Wrapper */,
 				241A579F2C85B92000232D8B /* Design */,
 				241A57902C85964E00232D8B /* CustomView */,
 				241A57932C85969300232D8B /* Recap */,
@@ -145,8 +149,6 @@
 		241A57A62C85BDC800232D8B /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				241A57E52C87254600232D8B /* Market.swift */,
-				241A57E32C87253300232D8B /* UpbitAPI.swift */,
 				241A57A72C85BDD000232D8B /* SearchView.swift */,
 			);
 			path = Search;
@@ -175,6 +177,31 @@
 				241A57FA2C89978B00232D8B /* CoinView.swift */,
 			);
 			path = Coin;
+			sourceTree = "<group>";
+		};
+		241A57FC2C899ED300232D8B /* UpbitAPI */ = {
+			isa = PBXGroup;
+			children = (
+				241A57E52C87254600232D8B /* Market.swift */,
+				241A57E32C87253300232D8B /* UpbitAPI.swift */,
+			);
+			path = UpbitAPI;
+			sourceTree = "<group>";
+		};
+		241A57FD2C899EE000232D8B /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				241A57F42C888C8400232D8B /* NavigationLazyView.swift */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		241A57FE2C899EE700232D8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				241A57FC2C899ED300232D8B /* UpbitAPI */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241A57E42C87253300232D8B /* UpbitAPI.swift in Sources */,
+				241A58002C89A04200232D8B /* Color+.swift in Sources */,
 				241A57A12C85B92500232D8B /* ImageAsset.swift in Sources */,
 				241A57F52C888C8400232D8B /* NavigationLazyView.swift in Sources */,
 				241A579E2C85AD9400232D8B /* MBTIButton.swift in Sources */,

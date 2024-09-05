@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUITransitionNetworkPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            RandomImageView()
+            CoinView()
         }
     }
 }

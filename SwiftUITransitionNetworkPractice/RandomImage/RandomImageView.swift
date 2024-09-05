@@ -63,10 +63,6 @@ struct RandomImageView: View {
     }
 }
 
-#Preview {
-    RandomImageView()
-}
-
 struct PosterView: View {
     
     let url: URL?
@@ -86,4 +82,8 @@ struct PosterView: View {
         }
         .frame(width: 100, height: 150)
     }
+}
+
+#Preview {
+    RandomImageView()
 }

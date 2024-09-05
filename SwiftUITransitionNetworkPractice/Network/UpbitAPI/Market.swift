@@ -7,7 +7,10 @@
 
 import Foundation
 
-struct Market: Hashable, Codable {
+struct Market: Hashable, Codable, Identifiable {
+    let id = UUID()
+    var like = false
+    
     let market, koreanName, englishName: String
 
     enum CodingKeys: String, CodingKey {
